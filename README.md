@@ -1,24 +1,24 @@
 # Human-written introduction
 
-The idea raised naturally while building a web app from scratch using Codex and Claude's AI agents.
-I realised that models focused too hard on creating new code but not so much on thinking-first and gathering knowledge before taking decisions.
+The idea arosed naturally while building a web app from scratch using Codex and Claude AI agents.
+I realised that models focused hard on creating new code but much less on thinking first or tracking and gathering knowledge.
 
-The primary reasons were to:
-- 1st: Window chat session: it grows fast, gets dirty quickly while iterating, and introduces noise into the development process. AI compacting can reduce the size but it doesn't mean it keeps ONLY the relevant context.
-- 2nd: Move important information out from chat windows and keep it organized in a durable memory system.
-- 3rd: Guide -or better, "force"- models to build a structured multi-level knowledge system, including immediate context, module-specific knowledge, and long-term documentation.
-- 4th: Ensure that the captured knowledge is consistently used and integrated into the development workflow.
-- 5th: Last but not least: Token economy.
+The facts:
+- The chat session grows fast, gets dirty quickly while iterating, and introduces noise into the development process. AI compaction reduces the size but it doesn't mean it keeps ONLY the relevant context.
+- Important information must be moved out from chat windows and kept organized in a durable memory system.
+- Models must be forced to build a structured multi-level knowledge system, including immediate context, module-specific knowledge, and long-term documentation.
+- Humans must ensure that the captured knowledge is consistently used and integrated into the development workflow.
+- Last but not least: Token economy.
 
-This small framework organise technical and functional information from hot (L0) to cold (L3):
-- Lowest levels capture immediate context and transient information: It keeps what didn't work well during dev iterations, and what did work well.
+This small framework organises technical and functional information from hot (L0) to cold (L3):
+- The lowest levels capture immediate context and transient information: they keep what didn't work well during dev iterations, and what did work well.
 - Medium levels keep concern for a module or specific part of the app.
-- The highest level builds a long-term, durable knowledge documentation.
+- The highest level builds long-term, durable knowledge documentation.
 - All levels must be used by AI agents to ensure comprehensive context awareness and knowledge integration.
 
-Format: All levels stand as Markdown files except the highest one, which can be built in a kinder format such as HTML. 
+Format: All levels are Markdown files except the highest one, formal HTML documentation.
 
-This memory kit becomes a good interface for exchange between AI agents and humans.
+This memory kit becomes a good interface between AI agents and humans.
 **Provocative final thought**: Why spend time reviewing code when you can validate knowledge directly from the memory kit?
 
 -- The rest of the content in this repository is fully agentic-AI generated.
